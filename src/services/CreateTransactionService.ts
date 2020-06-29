@@ -29,6 +29,7 @@ class CreateTransactionService {
       type,
     });
 
+    console.log(transaction);
     // falta checar a category
 
     return transaction;
